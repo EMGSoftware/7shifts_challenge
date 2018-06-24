@@ -27,10 +27,10 @@ class Calculations extends Model
             $http_result = $info ['http_code'];
             curl_close ($ch);
             
-            $container = json_decode ($output);//array_only (json_decode ($output), ["clockedIn", "clockedOut", "locationId", "userId"]);
+            $container = json_decode ($output);
             return true;
         }
-        catch ($ex)
+        catch (\Exception $ex)
         {
             return false;
         }
@@ -101,7 +101,7 @@ class Calculations extends Model
             DB::insert (join ("", $queries));
             return true;
         }
-        catch ($ex)
+        catch (\Exception $ex)
         {
             return false;
         }
