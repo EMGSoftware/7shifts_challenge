@@ -1,0 +1,6 @@
+[24-Jun-2018 16:02:18 UTC] PHP Parse error:  syntax error, unexpected '.', expecting '&' or variable (T_VARIABLE) in /home/ubuntu/workspace/reports/vendor/symfony/var-dumper/Resources/functions/dump.php on line 18
+[24-Jun-2018 16:02:18 UTC] PHP Stack trace:
+[24-Jun-2018 16:02:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/reports/public/index.php:0
+[24-Jun-2018 16:02:18 UTC] PHP   2. require() /home/ubuntu/workspace/reports/public/index.php:24
+[24-Jun-2018 16:02:18 UTC] PHP   3. ComposerAutoloaderInit6028b9f17a7fe50e9aba5b431bb96b9c::getLoader() /home/ubuntu/workspace/reports/vendor/autoload.php:7
+[24-Jun-2018 16:02:18 UTC] PHP   4. composerRequire6028b9f17a7fe50e9aba5b431bb96b9c() /home/ubuntu/workspace/reports/vendor/composer/autoload_real.php:56
